@@ -3,9 +3,9 @@ tradigitools
 
 Copyright 2007 - 2013 FUNHouse Interactive.
 
-Original Design: [Dimos Vrysellas](http://www.circusink.com/), [Charles Wardlaw](http://www.sugarandcyanide.com/)
-Original C++ Conversion: [Chris Zurbrigg](http://zurbrigg.com)
-Cinema 4D Version: [Bret Bays](http://bretbays.com)
+Original Design: [Dimos Vrysellas](http://www.circusink.com/), [Charles Wardlaw](http://www.sugarandcyanide.com/)  
+Original C++ Conversion: [Chris Zurbrigg](http://zurbrigg.com)  
+Cinema 4D Version: [Bret Bays](http://bretbays.com)  
 
 
 tradigiTOOLs is a helpful plugin for Maya (and now Cinema 4D) that promotes a more traditional workflow for animation with digital tools.  It helps set keys and breakdowns, and has numerous workflow tools which were designed to make an animator's life easier.
@@ -36,7 +36,7 @@ This open source release also includes the Cinema 4D Python plugin.  Please see 
 
 ## The Future
 
-If you've made developments and would like to share, please don't hesitate to contact Charles ([kattkieru on github](http://www.gitub.com/kattkieru/)).
+If you've made developments and would like to share, please don't hesitate to contact Charles ([kattkieru on github](http://www.github.com/kattkieru/)).
 
 Good luck and good animating!
 

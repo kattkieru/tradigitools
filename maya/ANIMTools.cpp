@@ -1,7 +1,7 @@
 //*********************************************************
 // ANIMTools.cpp
 //
-// Copyright (C) 2007 Circus Ink Entertainment
+// Copyright (C) 2007-2013 Circus Ink Entertainment
 // All rights reserved.
 //
 //*********************************************************
