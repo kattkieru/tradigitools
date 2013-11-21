@@ -1,0 +1,202 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fmodern\fcharset0 CourierNewPS-BoldMT;\f1\fmodern\fcharset0 CourierNewPSMT;\f2\fmodern\fcharset0 CourierNewPS-BoldItalicMT;
+}
+{\colortbl;\red255\green255\blue255;}
+\vieww16240\viewh15600\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\b\fs30 \cf0 Welcome to TradigiTOOLS 1.3a
+\f1\b0\fs26 \
+\
+
+\f0\b SYSTEM REQUIRMENTS\
+
+\f1\b0 \
+TradigiTOOLS works with the following versions of Maya:\
+\
+\pard\pardeftab720\qc
+
+\f0\b \cf0 Maya 2013 Service Pack 2
+\f1\b0  (Win64 and Mac OS X 64bit Intel)\
+
+\f0\b Maya 2013 Extension 2
+\f1\b0  (Win64 and Mac OS X 64bit Intel)\
+
+\f0\b Maya 2014 
+\f1\b0 (Win64 and Mac OS X 64bit Intel)\
+\
+\pard\pardeftab720
+\cf0 \
+If you do not have one of the above specified versions of Maya the plugin may fail to load.  
+\f2\i\b Only the above version is supported
+\f1\i0\b0 .  To download updates, please visit the Autodesk website:\
+\
+http://usa.autodesk.com/adsk/servlet/ps/dl/index?siteID=123112&id=2334435&linkID=9242259\
+\
+\
+
+\f0\b INSTALLATION:\
+\
+
+\f1\b0 1) Close any open instances of Maya.\
+\
+2) If you are upgrading from a previous version of tradigiTOOLS, please back up your tradigiTOOLS.lic license file and uninstall the old version before running the new installer.\
+\
+3) On Windows and OSX, run the setup installation program and follow the instructions.\
+\
+4) Launch Maya and open the Plug-in Manager (Window -> Settings/Preferences/Plug-in Manager).\
+\
+5) In the plug-in manager, navigate to the tradigiTOOLS installation directory and load (and auto-load) the version of the tradigiTOOLS that corresponds to the version of Maya in use.\
+\
+6) A new menu item named "FUNhouse" will be displayed.  Select FUNhouse -> tradigiTOOLS to launch the tradigiTOOLS UI.\
+\
+Tip: A shelf icon can be created by holding Control+Shift keys and selecting the tradigiTOOLS menu item.\
+\
+\
+
+\f0\b UPDATE HISTORY:\
+\
+v1.3a\
+\
+
+\f1\b0 1) Support for Maya 2013 SP2, 2013 Extension SP2, and 2014.\
+
+\f0\b \
+\
+v1.3\
+\
+
+\f1\b0 1) Support for Maya 2012.\
+\
+2) Improved docking support for the tradigiTOOLS interface. Flickering should be fixed, and the Dock Control will not overlap other parts of the interface when initially docked in Maya 2012.\
+\
+3) Added a quick button for Auto Tangents.  It works the same as the other tangent buttons.\
+\
+4) When starting Maya and re-opening tradigiTOOLS, the global tangent type button now respects the user preferences instead of defaulting to "spline".\
+\
+5) Shot Mask is off by default when ANIMBlasting.  This has been requested a lot, so there you go! To enable it, turn on the setting in the ANIMBlast tab.\
+\
+\
+
+\f0\b v1.25\
+\
+
+\f1\b0 1) Support for Maya 2011 Hotfix 3. Please note that versions of Maya 2011 that prior to Hotfix 3 ARE NOT SUPPORTED. Please update to Hotfix 3, as it fixes a number of critical issues.
+\f0\b \
+\
+
+\f1\b0 2) Added support for docking the tradigiTOOLS interface.
+\f0\b \
+\
+\
+v1.21\
+\
+
+\f1\b0 1) Preliminary support for Maya 2009 (Windows 32, Windows 64, Mac OS X).\
+\
+\
+
+\f0\b v1.20\
+
+\f1\b0 \
+1) Added support for Blend nodes\
+\
+2) Added support for Character Sets\
+\
+3) Parenting to the Camera is now supported for the shotmask\
+\
+4) WINDOWS ONLY: 64-bit support for Maya64 on XP64 & Vista64\
+\
+5) MAC ONLY: Maya 8.5 and Maya 2008 plug-ins are now Universal Binaries.\
+
+\f0\b \
+\
+v1.11\
+\
+
+\f1\b0 1) A shotmask can be successfully created for all of the "Fit Resolution Gate" types (Horizontal, Vertical, Fill and Overscan).
+\f0\b \
+\
+
+\f1\b0 2) Shotmask details can now be stored with the scene.  tradigiTOOLS will automatically update when a scene is loaded with saved details.\
+\
+3) A "Delete All" button was added to the shot mask creation.  Using it will delete both the shotmask and the stored shotmask details.
+\f0\b \
+\
+
+\f1\b0 4) An ANIMBlast button was added to Quick Buttons section.\
+\
+5) Scaling for the shotmask text is now available.  Scaling can be accomplished in the X and Y directions independently.\
+\
+6) Fixed a Key/Breakdown issue that could potentially set a key that was a copy of the previously set key.\
+\
+7) Fixed a clipping plane limitation that could potentially keep the shotmask from being rendered.\
+\
+\
+
+\f0\b v1.01
+\f1\b0 \
+\
+1) Original Release\
+\
+\
+
+\f0\b KNOWN LIMITATIONS:
+\f1\b0 \
+\
+1) The shot mask may not display correctly if the camera's Lens Squeeze Ratio is not equal to 1.\
+\
+2) ANIMBlast will not dynamically update the shot mask if the camera's focal length has been animated over the course of a shot.\
+\
+3) ANIMBlast may playblast to the wrong size on a fresh install of Maya.  Creating a single regular playblast should remedy this on all subsequent ANIMBlasts.\
+\
+4) The text on the shot mask may display as blocks on a fresh install of Maya.  One time creation of text should solve this problem (Create -> Text).\
+\
+5) Parenting objects to the camera may cause the shotmask to fail.  Parent constraining can be used as an alternative.\
+\
+6) Some Maya 2009-specific features, like stereoscopic cameras, are not supported and may cause issues if used with tradigiTOOLS.\
+\
+\
+
+\f0\b CREDITS
+\f1\b0 \
+\
+
+\f0\b Created and Designed by
+\f1\b0 \
+Dimos Vrysellas\
+\
+
+\f0\b Programming and MEL Scripting
+\f1\b0 \
+Chris Zurbrigg\
+Charles W. Wardlaw\
+\
+
+\f0\b Beta Testers
+\f1\b0 \
+Paul Allen\
+David Bernal\
+John T. Coomey\
+Michael Donovan\
+Anders Eriksson\
+Adam "FONT" Fontenault\
+Michal Mach\
+Alexiss Dawn Memmott\
+Athavan "Astro" Rajaratnam\
+Jim Regan\
+Matthew Tardiff\
+Remi "Rock Star" Tjon Ajong\
+Joost "JUICE" van Schaik\
+Tobias Felix von Burkersroda\
+Jason "Spilly" Spilchak\
+Justin Weg\
+\
+
+\f0\b Additional Thanks
+\f1\b0 \
+Jonathan Wilkes (SetEnv)\
+\
+\
+}
