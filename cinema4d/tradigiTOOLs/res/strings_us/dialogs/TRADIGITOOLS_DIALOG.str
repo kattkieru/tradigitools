@@ -1,0 +1,62 @@
+// C4D-DialogResource
+
+DIALOGSTRINGS TRADIGITOOLS_DIALOG
+{
+  AUTO_CHECK            "Auto";
+  CLEAR_CONSOLE         "Clear";
+  CREATE_CAM_BUTTON     "Create Shot Cam";
+  CREATE_PREVIEW        "Create Hardware Preview";
+  IDS_BUTTON3           "SET KEY";
+  IDS_CHECK1            "Ripple Lock";
+  IDS_STATIC1           "Keys / Breakdown";
+  IDS_STATIC10          "Insert Frames Buttons";
+  IDS_STATIC11          "";
+  IDS_STATIC12          "Increment Group";
+  IDS_STATIC13          "Auto-Group";
+  IDS_STATIC14          "Quick Buttons";
+  IDS_STATIC18          "Camera";
+  IDS_STATIC19          "Link and Create Group";
+  IDS_STATIC2           "Key Button Group";
+  IDS_STATIC20          "Key Types";
+  IDS_STATIC21          "Editors Group";
+  IDS_STATIC23          "Console";
+  IDS_STATIC24          "LINK_GROUP";
+  IDS_STATIC26          "Group";
+  IDS_STATIC4           "Buttons Group";
+  IDS_STATIC5           "tradigiTOOLS";
+  IDS_STATIC6           "Timing";
+  IDS_STATIC9           "Timing Button Group";
+  INCREMENT_CHECK       "Increment";
+  INSERT_1_FRAME        "+1F";
+  INSERT_2_FRAMES       "+2F";
+  INTERP_DROPDOWN       "Interpolation Dropdown";
+  LINEAR_KEYS_BUTTON    "Linear";
+  MOVE_TO_NEXT_BOX      "Move To Next";
+  OPEN_F_CURVE          "F-Curve Editor";
+  OPEN_KEY_EDITOR       "Keys Editor";
+  OVERWRITE_MODE_RADIO  "Overwrite Mode";
+  QUESTION_BUTTON       "?";
+  RANGE_CHECK           "Range";
+  REMOVE_1_FRAME        "-1F";
+  REMOVE_2_FRAMES       "-2F";
+  RETIME_BUTTON         "Retime";
+  RIPPLE_MODE_RADIO     "Ripple Mode";
+  SAVE_INCREMENTAL      "Save Incremental";
+  SPLINE_KEYS_BUTTON    "Spline";
+  STEPPED_KEYS_BUTTON   "Stepped";
+  SWAP_CAM_BUTTON       "Swap Editor/Shot Cam";
+  TIMING_1_FRAME        "1F";
+  TIMING_2_FRAMES       "2F";
+  TIMING_3_FRAMES       "3F";
+  TIMING_4_FRAMES       "4F";
+  TIMING_5_FRAMES       "5F";
+  TIMING_6_FRAMES       "6F";
+  TRADIGITOOLS_DIALOG   "tradigiTOOLS";
+  TWEEN_PERCENT_10      "<<";
+  TWEEN_PERCENT_25      "<";
+  TWEEN_PERCENT_5       "<<<";
+  TWEEN_PERCENT_50      "<>";
+  TWEEN_PERCENT_75      ">";
+  TWEEN_PERCENT_90      ">>";
+  TWEEN_PERCENT_95      ">>>";
+}

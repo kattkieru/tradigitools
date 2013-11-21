@@ -1,0 +1,18 @@
+
+tradigiTOOLS for Cinema 4D
+Copyright 2011-2013 FUNHouse Interactive.
+
+This tool was completely written by Bret Bays.  The code is all in Python.  It should run on Cinema 4D versions R13 through R15.
+
+It was meant to become a commercial product after the addition of licensing, but for various reasons that never happened.  In its current state it is a working and useful tool for animators in Cinema 4D, and as such we've decided to also release it to the public.
+
+Installation Instructions:
+
+* Launch CINEMA 4D
+* Choose Edit > Preferences
+* In the Preferences Window click the "Open Preferences Folder" button at the bottom
+* This will bring up a window. Choose "Plugins" from this window
+* Copy the tradigiTOOLs folder into the plugins folder.  (This is the folder that contains the tradigiTOOLs.pyp file and its Res folder.)
+* Restart CINEMA
+* Access the plugin from the Plugin Menu
+
