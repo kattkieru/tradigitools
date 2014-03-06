@@ -21,7 +21,7 @@
 
 #include "ErrorReporting.h"
 
-#include "config.h"
+// #include "config.h"
 
 //*********************************************************
 
@@ -61,7 +61,7 @@ MStatus deregisterCommands( MObject obj );
 //*********************************************************
 MStatus initializePlugin( MObject obj )
 {
-    MStatus status = MS::kFailure;
+    MStatus status = MS::kSuccess;
 
     pluginTrace( "ANIMTools", "initializePlugin", "Initializing ANIMToolbox" );
 
@@ -103,8 +103,8 @@ MStatus initializePlugin( MObject obj )
         // Don't source until after all commands have been registered
         // Otherwise Maya won't understand them (even if they've since been registered)
 		// ##NEW Changed for Maya 2012.
-        MString sourceStr = "source " + MString(CIE_TDTMELFILE) + ";";
-        MString errorMsg = "Failed to source " + MString(CIE_TDTMELFILE) + ".";
+        MString sourceStr = "source cie_tradigitools.mel;";
+        MString errorMsg = "Failed to source cie_tradigitools.mel.";
 
         if( !MGlobal::executeCommand( sourceStr ) ) {
             pluginError( "ANIMTools", "initializePlugin", errorMsg);

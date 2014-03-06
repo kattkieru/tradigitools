@@ -1,2 +1,0 @@
-#define CIE_TDTMELFILE "cie_tradigitools_%(MAYA_VERSION)s.mel"
-
