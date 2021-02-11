@@ -94,8 +94,6 @@ target_link_libraries("${PROJECT_NAME}"
 	${PLATFORM_LINK}
 )
 
-MAYA_PLUGIN("${PROJECT_NAME}")
-
 install(
 	TARGETS
 		${PROJECT_NAME}

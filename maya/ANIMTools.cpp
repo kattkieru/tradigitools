@@ -34,7 +34,7 @@ ANIMToolsUI g_animToolsUI;
 // Constants
 //*********************************************************
 // The version number being built
-const char* versionNumber = "1.3a";
+const char* versionNumber = "1.5";
 
 const char *aboutCmdName = "cieAbout";
 
@@ -59,7 +59,7 @@ MStatus deregisterCommands( MObject obj );
 // Desc: Register the commands, devices, etc..., 
 //       defined by the plugin, with Maya.
 //*********************************************************
-MStatus initializePlugin( MObject obj )
+PLUGIN_EXPORT MStatus initializePlugin( MObject obj )
 {
     MStatus status = MS::kSuccess;
 
@@ -124,7 +124,7 @@ MStatus initializePlugin( MObject obj )
 // Desc: Deregister the commands, devices, etc..., 
 //       defined by the plugin, from Maya
 //*********************************************************
-MStatus uninitializePlugin( MObject obj )
+PLUGIN_EXPORT MStatus uninitializePlugin( MObject obj )
 {
     MStatus status = MS::kSuccess;
 
