@@ -16,7 +16,7 @@
 //*********************************************************
 ANIMToolsUI::ANIMToolsUI()
 {
-	animToolsMenuName = "cie_tradigiTOOLSMenu";
+	animToolsMenuName = "cie_tradigitoolsMenu";
 	animToolsMenuLabel = "tradigiTOOLS...";
 }
 
@@ -35,7 +35,7 @@ ANIMToolsUI::~ANIMToolsUI()
 //*********************************************************
 MStatus ANIMToolsUI::addMenuItems()
 {
-    MGlobal::executeCommand( "menu -l \"FUNhouse\" -to true -parent $gMainWindow FUNhouseMainMenu", animToolsMenuName );
+    MGlobal::executeCommand( "menu -l \"Tradigitools\" -to true -parent $gMainWindow TradigitoolsMainMenu", animToolsMenuName );
     MGlobal::executeCommand( "menuItem -l \"" + animToolsMenuLabel + "\" -c \"cie_tradigitools()\" " );
 
 	return MS::kSuccess;
