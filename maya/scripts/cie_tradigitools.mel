@@ -1305,7 +1305,7 @@ global proc string cie_atbCreateShotMaskLayout( string $parentLayout, string $to
 	
 	$g_cieATBShotMaskDisplaySideEdgesCB = `checkBox -l "Side Bars"
 		                                         -ann "Controls the visibility of the side edges of the mask"
-												 -v 1
+												 -v 0
 												 -cc "cie_atbShotMaskUpdateSidebarVis()"
 												 displaySideEdgesCB`;
 	
