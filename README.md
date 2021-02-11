@@ -1,16 +1,16 @@
 tradigitools
 ============
 
-Copyright 2007 - 2013 FUNHouse Interactive.
+Copyright 2007 - 2021 Skeletal Studios
 
-Original Design: [Dimos Vrysellas](http://www.circusink.com/), [Charles Wardlaw](http://www.sugarandcyanide.com/)  
+Original Design: [Dimos Vrysellas](http://www.circusink.com/), [Charles Wardlaw](http://www.skeletalstudios.com/)  
 Original C++ Conversion: [Chris Zurbrigg](http://zurbrigg.com)  
 Cinema 4D Version: [Bret Bays](http://bretbays.com)  
 
 
 ### Introduction
 
-tradigiTOOLs is a helpful plugin for Maya (and now Cinema 4D) that promotes a more traditional workflow for animation with digital tools.  It helps set keys and breakdowns, and has numerous workflow tools which were designed to make an animator's life easier.
+Tradigitools is a helpful plugin for Maya (and now Cinema 4D) that promotes a more traditional workflow for animation with digital tools.  It helps set keys and breakdowns, and has numerous workflow tools which were designed to make an animator's life easier.
 
 It has been used extensively by studios in North America, and by many students of animation schools.
 

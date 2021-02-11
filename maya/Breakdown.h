@@ -1,7 +1,7 @@
 //*********************************************************
 // Breakdown.h
 //
-// Copyright (C) 2007 Circus Ink Entertainment
+// Copyright (C) 2007-2021 Skeletal Studios
 // All rights reserved.
 //
 //*********************************************************

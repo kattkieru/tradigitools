@@ -1,7 +1,7 @@
 //*********************************************************
 // AboutCommand.cpp
 //
-// Copyright (C) 2007 Circus Ink Entertainment
+// Copyright (C) 2007-2021 Skeletal Studios
 // All rights reserved.
 //
 //*********************************************************
@@ -21,10 +21,10 @@ const char* AboutCommand::versionLongFlag = "-version";
 const char* AboutCommand::copyrightFlag = "-c";
 const char* AboutCommand::copyrightLongFlag = "-copyright";
 
-const char* AboutCommand::name = "tradigiTOOLS";
-const char* AboutCommand::version = "1.3a";
+const char* AboutCommand::name = "tradigitools";
+const char* AboutCommand::version = "1.5";
 
-const char* AboutCommand::copyright = "Copyright 2009-2013 FUNhouse Interactive";
+const char* AboutCommand::copyright = "Copyright 2007-2021 Skeletal Studios";
 
 
 //*********************************************************
