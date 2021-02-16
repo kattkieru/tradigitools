@@ -1,5 +1,9 @@
-module
+__pycache__
+_rez_build
+*.pdb
+*.pyc
+
+module/*
+build/*
 cmake-build-*
 .idea
-.vscode
-
