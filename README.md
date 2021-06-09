@@ -21,24 +21,20 @@ The source is released under the BSD license.  If you use the source for anythin
 
 ### Latest Update
 
-The initial release had issues building because I hastily stripped the licensing module from the tree.  I've fixed that.  I've also renamed the MEL file to cie_tradigitools.mel for sourcing; the 2013 file is still there for reference (and, if I recall, no different from the one in 2014), but moving forwards I'll only be supporting Maya 2014 and 
-above.
-
-My intent is to make installers for binary builds so that it's easier for people to use the tool.
-
-I've noticed that there's an odd issue linking on Linux (in my case, CentOS 6.2).  I'm looking into it, but if you have
-any insight I'd appreciate hints.
+Maya 2022 is now supported.  There are some deprecation warnings, so I may
+go in and silence them by moving to newer API calls at some point. This would
+mean dropping support for earlier versions of Maya.
 
 
 ### Building
 
-The current build uses [scons](http://www.scons.org).  Any recent version of scons should do. 
+The current build uses [cmake](http://www.cmake.org).  I recommend version 3.17 or above. 
 
-You'll need to modify the SConscript to fit your build environment, particularly the _MAYA\_DIRECTORY and INSTALL\_DIRECTORY_ variables.
+Builds use the regular cmake dance:
 
-If you're using bash, cd into the source tree and type:
-
-> export MAYA_VER=2014; scons -j [number of cores]
+> mkdir build && pushd build
+> cmake -DMAYA_VERSION=2022 ..
+> cmake --build . --config Release --target install
 
 This will choose the version of Maya you've specified, and build the plugin.
 
